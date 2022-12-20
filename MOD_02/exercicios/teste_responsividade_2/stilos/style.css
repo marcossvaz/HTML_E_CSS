@@ -1,0 +1,58 @@
+@charset "utf-8";
+@font-face {
+    font-family: cbf ;
+    src: url(/teste_responsividade_2/fontes/EASPORTS15.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    --cor_brasil_1: #004A8F;
+    --cor_brasil_2: #008724d3;
+    --cor_brasil_3: #FFDC07;
+}
+
+header {
+    margin: auto;
+    max-width: 851px;
+    min-width: 360px;
+    height: 100px;
+    background-color: var(--cor_brasil_3);
+}
+
+header > img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+nav {
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    max-width: 850px;
+    height: 40px;
+    background-color: var(--cor_brasil_1);
+}
+
+nav > a {
+    font-family: 'cbf';
+    margin: 10px;
+    text-decoration: none ;
+    color: white;
+}
+
+
+main > article {
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    max-width: 806px;
+    height: 500px;
+    border-left: inset var(--cor_brasil_2);
+    border-bottom: inset var(--cor_brasil_2);
+    border-right: inset var(--cor_brasil_2);
+}

@@ -1,0 +1,28 @@
+@charset "html";
+@font-face {
+    font-family: "Sunday best";
+    src: url(fontes/Sunday\ Best\ ttf.ttf) format('truetype');
+    
+}
+
+h1 {
+    font-family: 'Sunday best', Times, serif ;
+    font-weight: normal;
+    color: #D9526B;
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+    background-color: #48D9B4;
+    padding: 10px;
+    border-radius: 5px;
+}

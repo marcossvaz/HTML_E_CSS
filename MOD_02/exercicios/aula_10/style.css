@@ -1,0 +1,11 @@
+@charset "html";
+
+body {
+    text-align: justify;
+    
+}
+
+p {
+    font: italic 'work sans', sans-serif;
+    text-indent: 20px;
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+}
+
+.caixa1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 255, 0.753);
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+    position: relative;
+    
+}
+
+.caixa2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0, 255, 34, 0.76);
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;  
+    position: absolute;
+}

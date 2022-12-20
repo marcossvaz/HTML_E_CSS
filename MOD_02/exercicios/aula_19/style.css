@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+body {
+    background-color: rgb(228, 255, 255);
+}
+
+h1#principal {
+    text-align: center;
+    font: italic bold 4em, sans-serif;
+    background-color: aquamarine;
+}
+
+.subtexto {
+    text-align: center;
+    background-color: blue;
+}

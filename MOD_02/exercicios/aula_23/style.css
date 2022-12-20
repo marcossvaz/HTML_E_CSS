@@ -1,0 +1,70 @@
+@charset "html";
+
+@font-face {
+    font-family: imperio ;
+    src: url(fonts/TrajanusBricks.ttf);
+}
+
+nav > img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    
+}
+
+nav {
+    background-color: #FCB837 ;
+    width: 800px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 2px;
+    margin: auto  auto 5px;
+    text-align: center;
+    box-shadow: 2px 3px 3px 1px  rgba(0, 0, 0, 0.123)
+}
+
+nav > a {
+    
+    text-decoration: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: 'imperio';
+    padding: 20px;   
+}
+
+nav > a:hover {
+    color: #ec3c45;
+   
+}
+
+main {
+    width: 814px;
+    height: 800px;
+    border: solid #FCB837;
+    border-radius: 1px;
+    margin: auto;
+    
+}
+
+footer {
+    width: 820px;
+    height: 150px;
+    background-color: #00933d;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+}
+
+footer > div#marca {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 50%;
+}
+
+footer > div#marca > img {
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 80px;
+}

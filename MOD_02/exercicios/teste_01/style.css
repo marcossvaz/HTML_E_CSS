@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor: rgba(0, 0, 0, 0.397) ;
+
+}
+
+header {
+    background-color: var(--cor);
+}

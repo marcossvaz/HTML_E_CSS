@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+main {
+    background-color: aqua;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    
+    min-width: 320px;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+}
