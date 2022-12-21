@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url('/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    
+}
+:root {
+    --cor1:#c5ebd6;
+    --cor2:#83e1ad;
+    --cor3:#3ddc84;
+    --cor4:#2fa866;
+    --cor5:#063d1e;
+
+    --fonte_padrao: 'Oswald', sans-serif;
+    --fonte_idroid: 'idroid' ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte_padrao);
+    
+}
+
+header {
+    padding: 10px;
+    min-height: 100px;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    color: white;
+    text-align: center;
+}
+
+header  h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.301);
+}
+
+
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.356) ; 
+    
+}
+nav > a {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    transition-duration: .2s;
+    
+}
+
+nav > a:hover {
+    color: black;
+}
+
+
+main {
+    padding: 20px;
+    min-width: 360px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+}
+
+
+
+main  h1 {
+    color: var(--cor3);
+    font-family: var(--fonte_idroid) ;
+}
+
+main p {
+    text-indent: 20px;
+    line-height: 2em;
+    text-align: justify;
+}
+
+main  img {
+    width: 100%;
+    
+}
+
+main img.bugdroid {
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 10px -20px;
+    padding: 20px ;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+   
+   padding-top: -10px;
+   background-color: var(--cor4);
+   border-radius: 10px;
+   list-style-position: inside;
+   
+}
+
+
+aside > ul {
+    columns: 2;
+}
+
+aside > h3 {
+    background-color: var(--cor1);
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--cor5);
+    text-align: center;
+} 
+
+footer  a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
