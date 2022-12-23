@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.quadrado {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#q1 {
+    
+    background-image: url(/MOD_03/exercicio/ex_1/imagens/wallpaper002.jpg);
+    background-position: left top;
+}
+
+#q2 {
+    background-image: url(/MOD_03/exercicio/ex_1/imagens/wallpaper002.jpg);
+    background-position: right top;
+}
+
+#q3 {
+    background-image: url(/MOD_03/exercicio/ex_1/imagens/wallpaper002.jpg);
+    background-position: center center;
+}
+
+#q4 {
+    background-image: url(/MOD_03/exercicio/ex_1/imagens/wallpaper002.jpg);
+    background-position: left bottom;
+}
