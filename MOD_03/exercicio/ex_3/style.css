@@ -2,19 +2,20 @@
 
 .quadrado {
     height: 200px;
-    width: 900px;
+    width: 500px;
     border: 1px solid black;
     border-radius: 10px;
     margin: 10px;
 }
 
 #q1 {
-    
+    display: inline-block;
     background-image: url(/MOD_03/exercicio/ex_1/imagens/wallpaper002.jpg);
     background-position: left top;
 }
 
 #q2 {
+    display: inline-block;
     background-image: url(/MOD_03/exercicio/ex_1/imagens/wallpaper002.jpg);
     background-position: right top;
 }
