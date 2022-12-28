@@ -1,0 +1,83 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'freshly' ;
+    src: url(/testes/paralax/fonts/FreshlyThinking.ttf);
+}
+
+@font-face {
+    font-family:  'akrobat';
+    src: url(/testes/paralax/fonts/Akrobat-Regular.otf);
+}
+
+@font-face {
+    font-family: 'george' ;
+    src: url(/testes/paralax/fonts/Louis\ George\ Cafe\ Italic.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    --font: 'freshly';
+    --fontbody: 'akrobat';
+    --fonth1: 'george';
+}
+
+:root {
+    --corfont1: #005755;
+    --corfont2: #E3B13D;
+}
+
+/* ÁREA DO TOPO */
+header {
+    background: url(/testes/paralax/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    text-align: center;
+}
+
+header.fundo {
+    background-color: #005755;
+    width: 300px;
+    height: 150px;
+}
+header h1 {
+    color: white;
+    font-size: 8em;
+    font-family: var(--font);
+    padding: 20px 0px 20px 0px;
+}
+nav {
+    background-color: var(--corfont2);
+    border-radius: 20px;
+    transform: translate(0%, -30%);
+}
+nav > p {
+    padding: 10px;
+}
+nav a {
+    margin-left:30px;
+    color: var(--corfont1);
+    text-decoration: none;
+    font-size: 1em;
+}
+/* ÁREA DE BODY */
+main {
+    border-left:1px solid var(--corfont2);
+    border-right: 1px solid var(--corfont2);
+    border-bottom: 1px solid var(--corfont2);
+    margin: auto;
+
+    min-width: 360px;
+    max-width: 600px;
+    padding: 50px;
+}
+main h1, h2, h3 {
+    font-family:var(--fonth1);
+}
+
+main p {
+    font-family: var(--fontbody);
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 10px;
+}
