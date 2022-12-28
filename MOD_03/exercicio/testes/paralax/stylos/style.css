@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: 'freshly' ;
-    src: url(/testes/paralax/fonts/FreshlyThinking.ttf);
+    src: url(/MOD_03/exercicio/testes/paralax/fonts/FreshlyThinking.ttf);
 }
 
 @font-face {
     font-family:  'akrobat';
-    src: url(/testes/paralax/fonts/Akrobat-Regular.otf);
+    src: url(/MOD_03/exercicio/testes/paralax/fonts/Akrobat-Regular.otf);
 }
 
 @font-face {
     font-family: 'george' ;
-    src: url(/testes/paralax/fonts/Louis\ George\ Cafe\ Italic.ttf);
+    src: url(/MOD_03/exercicio/testes/paralax/fonts/Louis\ George\ Cafe\ Italic.ttf);
 }
 * {
     margin: 0px;
@@ -29,7 +29,7 @@
 
 /* ÁREA DO TOPO */
 header {
-    background: url(/testes/paralax/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
+    background: url(/MOD_03/exercicio/testes/paralax/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
@@ -43,7 +43,7 @@ header.fundo {
 }
 header h1 {
     color: white;
-    font-size: 8em;
+    font-size: 9em;
     font-family: var(--font);
     padding: 20px 0px 20px 0px;
 }
