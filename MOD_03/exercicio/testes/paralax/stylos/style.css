@@ -42,18 +42,26 @@ header.fundo {
     height: 150px;
 }
 header h1 {
+    display: inline-block;
     color: white;
     font-size: 10em;
     font-family: var(--font);
     padding: 20px 0px 20px 0px;
 }
+
+.fundo  img {
+    width: 9%;
+    margin-bottom: 5px;
+
+}
+
+
 nav {
     margin: auto;
     max-width: 500px;
     background-color: var(--corfont2);
     border-radius: 20px;
     transform: translate(0%, -30%);
-   
 }
 nav > p {
     text-align: center;
