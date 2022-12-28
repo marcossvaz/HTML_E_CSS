@@ -43,10 +43,11 @@ header.fundo {
 }
 header h1 {
     display: inline-block;
-    color: white;
+    color: black;
     font-size: 10em;
     font-family: var(--font);
     padding: 20px 0px 20px 0px;
+    font-variant: small-caps;
 }
 
 .fundo  img {
