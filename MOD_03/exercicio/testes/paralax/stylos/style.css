@@ -43,16 +43,20 @@ header.fundo {
 }
 header h1 {
     color: white;
-    font-size: 9em;
+    font-size: 10em;
     font-family: var(--font);
     padding: 20px 0px 20px 0px;
 }
 nav {
+    margin: auto;
+    max-width: 500px;
     background-color: var(--corfont2);
     border-radius: 20px;
     transform: translate(0%, -30%);
+   
 }
 nav > p {
+    text-align: center;
     padding: 10px;
 }
 nav a {
@@ -74,11 +78,57 @@ main {
 }
 main h1, h2, h3 {
     font-family:var(--fonth1);
+    padding:30px 0px 40px 0px;
 }
 
 main p {
+    padding-bottom: 50px;
     font-family: var(--fontbody);
     line-height: 30px;
     text-align: justify;
     text-indent: 10px;
+}
+
+.container-brie {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--corfont2);
+    background: white url(/MOD_03/exercicio/testes/paralax/imagens/brie-cheese.jpg) center center fixed;
+    background-size: cover;
+
+}
+
+.container-brie > aside {
+    width: 150px;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: var(--fonth1); 
+    color: white;
+}
+
+.container-camember {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--corfont2);
+    background: white url(/MOD_03/exercicio/testes/paralax/imagens/cheese_camembert.jpg) center center fixed;
+    background-size: cover;
+
+}
+
+.container-camember > aside {
+    width: 175px;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: var(--fonth1); 
+    color: white;
 }
