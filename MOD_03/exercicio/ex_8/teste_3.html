@@ -8,34 +8,48 @@
     <style>
         table {
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 2em;
+            background-color: rgba(211, 211, 211, 0.418);
         }
 
         th {
             background-color: #499AFC;
             color: white;
             width: 150px;
-            height: 30px;
-            border-radius: 10px;
+            height: 50px;
+            border-right: 1px solid white;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top:0px;
         }
 
+
         td {
+            height: 50px;
             background-color: transparent;
             text-align: center;    
             border-radius: 5px;
         }
 
         tbody > tr:nth-child(2n){
-            background-color: lightblue;
+            background-color: rgba(173, 216, 230, 0.301);
         }
     </style>
 </head>
 <body>
     <table>
+        <caption>Tabela nutricional</caption>
         <thead>
             <tr>
-                <th>Tipos Queijos</th>
-                <th>Kcal</th>
-                <th>Qtd gordura(g)</th>
+                <th class="top">Tipos Queijos</th>
+                <th class="top">Kcal</th>
+                <th class="top">Qtd gordura(g)</th>
             </tr>
         </thead>
         <tbody>
@@ -54,14 +68,59 @@
                 <td>94</td>
                 <td>4</td>
             </tr>
-            <tfoot>
-                <thead>
-                    <th>Tipos Queijos</th>
-                    <th>Kcal</th>
-                    <th>Qtd gordura(g)</th>
-                </thead>
-            </tfoot>
+            <tr>
+                <td>Cream cheese</td>
+                <td>256</td>
+                <td>23,33</td>
+            </tr>
+            <tr>
+                <td>Coalho</td>
+                <td>350</td>
+                <td>28,31</td>
+            </tr>
+            <tr>
+                <td>Feta</td>
+                <td>264</td>
+                <td>21,3</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td>243</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Muçarela</td>
+                <td>281</td>
+                <td>21,6</td>
+            </tr>
+            <tr>
+                <td>Muçarela</td>
+                <td>281</td>
+                <td>21,8</td>
+            </tr>
+            <tr>
+                <td>parmesão</td>
+                <td>391</td>
+                <td>21,6</td>
+            </tr>
+            <tr>
+                <td>Prato</td>
+                <td>357</td>
+                <td>27,8</td>
+            </tr>
+            <tr>
+                <td>Ricota</td>
+                <td>357</td>
+                <td>27,8</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <thead>
+                <th>Tipos Queijos</th>
+                <th>Kcal</th>
+                <th>Qtd gordura(g)</th>
+            </thead>
+        </tfoot>
     </table>
 </body>
 </html>
