@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>TESTE DE TABELA GRANDE</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #499AFC;
+            color: white;
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+        }
+
+        td {
+            background-color: transparent;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Tipos Queijos</th>
+                <th>Kcal</th>
+                <th>Qtd gordura(g)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brie</td>
+                <td>334</td>
+                <td>27,7</td>
+            </tr>
+            <tr>
+                <td>Cheddar</td>
+                <td>403</td>
+                <td>33,1</td>
+            </tr>
+            <tr>
+                <td>Cottage</td>
+                <td>94</td>
+                <td>4</td>
+            </tr>
+            <tfoot>
+                <thead>
+                    <th>Tipos Queijos</th>
+                    <th>Kcal</th>
+                    <th>Qtd gordura(g)</th>
+                </thead>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
