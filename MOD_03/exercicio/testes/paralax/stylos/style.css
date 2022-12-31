@@ -1,4 +1,16 @@
 @charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    --font: 'freshly';
+    --fontbody: 'akrobat';
+    --fonth1: 'george';
+}
+
+:root {
+    --corfont1: #005755;
+    --corfont2: #E3B13D;
+}
 
 @font-face {
     font-family: 'freshly' ;
@@ -14,22 +26,13 @@
     font-family: 'george' ;
     src: url(/MOD_03/exercicio/testes/paralax/fonts/Louis\ George\ Cafe\ Italic.ttf);
 }
-* {
-    margin: 0px;
-    padding: 0px;
-    --font: 'freshly';
-    --fontbody: 'akrobat';
-    --fonth1: 'george';
-}
 
-:root {
-    --corfont1: #005755;
-    --corfont2: #E3B13D;
-}
+
+
 
 /* ÁREA DO TOPO */
 header {
-    background: url(/MOD_03/exercicio/testes/paralax/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
+    background: url(/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
