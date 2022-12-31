@@ -32,7 +32,7 @@
 
 /* ÁREA DO TOPO */
 header {
-    background: url(/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
+    background: url(/MOD_03/exercicio/testes/paralax/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
@@ -143,4 +143,37 @@ main p {
 
     font-family: var(--fonth1); 
     color: white;
+}
+
+.Container-parmesao {
+    width: 100%;
+    height: 500px;
+    border: 1px solid var(--corfont2);
+    background: white url(/MOD_03/exercicio/testes/paralax/imagens/parmesian.jpg) center center fixed;
+    background-size: cover;
+}
+
+.Container-parmesao > aside {
+    width: 155px;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    font-family: var(--fonth1); 
+    color: white;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+footer >  p > a {
+    text-decoration: none;
+    color: var(--corfont1);
 }
