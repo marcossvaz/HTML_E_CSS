@@ -64,7 +64,7 @@ header h1 {
 
 nav {
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
     background-color: var(--corfont2);
     border-radius: 20px;
     transform: translate(0%, -30%);
