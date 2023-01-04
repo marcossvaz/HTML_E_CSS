@@ -33,14 +33,14 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="col">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td class="filmes">alien</td>
                 <td class="filmes">Rambo</td>
@@ -59,7 +59,7 @@
                 <td class="filmes">Big hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td class="filmes">intocaveis</td>
                 <td class="filmes">Amnésia</td>
@@ -80,7 +80,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="4">total</td>
+                <th colspan="4" scope="row">total</th>
                 <td>100</td>
             </tr>
         </tfoot>
