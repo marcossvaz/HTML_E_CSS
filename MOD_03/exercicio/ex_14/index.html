@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas dinâmicas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font: 2em black;
+            background-color: aqua;
+        }
+        th, td {
+            border:1px solid black; 
+            padding: 5px 5px 5px 5px;
+            width: 70px;  
+            text-align: center;    
+        }
+
+        tr:nth-child(2n) {
+            background-color: rgb(239, 243, 242);
+        }
+
+        .container {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption>Tabela de vendas do ano</caption>
+            <thead>
+                <tr>
+                    <th>PRODUTOS</th>
+                    <th>JAN</th>
+                    <th>FEV</th>
+                    <th>MAR</th>
+                    <th>ABR</th>
+                    <th>MAI</th>
+                    <th>JUN</th>
+                    <th>JUL</th>
+                    <th>AGO</th>
+                    <th>SET</th>
+                    <th>OUT</th>
+                    <th>NOV</th>
+                    <th>DEZ</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <th>TV lg</th>
+                        <td>5</td>
+                        <td>67</td>
+                        <td>87</td>
+                        <td>45</td>
+                        <td>34</td>
+                        <td>23</td>
+                        <td>57</td>
+                        <td>35</td>
+                        <td>34</td>
+                        <td>86</td>
+                        <td>67</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>Smartphone</th>
+                        <td>34</td>
+                        <td>54</td>
+                        <td>34</td>
+                        <td>54</td>
+                        <td>45</td>
+                        <td>24</td>
+                        <td>65</td>
+                        <td>67</td>
+                        <td>67</td>
+                        <td>45</td>
+                        <td>43</td>
+                        <td>87</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
