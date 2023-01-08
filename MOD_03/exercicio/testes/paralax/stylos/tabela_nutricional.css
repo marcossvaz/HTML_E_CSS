@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -119,73 +120,30 @@ article > p  > a:hover {
     font-weight: bold;
 }
 
-.container-brie {   /* Container para os tipo de queijo, no caso o Brie*/
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--corfont2);
-    background: white url(/MOD_03/exercicio/testes/paralax/imagens/brie-cheese.jpg) center center fixed;
-    background-size: cover;
+/* ÁREA DE TRABELA*/
 
+
+table {
+    border-collapse : collapse;
+    margin: auto;
 }
-
-.container-brie > aside {
+th {
     width: 150px;
-    margin-top: 450px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.356);
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-
-    font-family: var(--fonth1); 
-    color: white;
+    font: 1.2em 'akrobat';
+    background-color: var(--corfont2);
+    padding: 3px 5px 4px ;
+    border: 1px solid white;
 }
 
-.container-camember {
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--corfont2);
-    background: white url(/MOD_03/exercicio/testes/paralax/imagens/cheese_camembert.jpg) center center fixed;
-    background-size: cover;
-
-}
-
-.container-camember > aside {
-    width: 175px;
-    margin-top: 450px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.356);
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-
-    font-family: var(--fonth1); 
-    color: white;
-}
-
-.Container-parmesao {
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--corfont2);
-    background: white url(/MOD_03/exercicio/testes/paralax/imagens/parmesian.jpg) center center fixed;
-    background-size: cover;
-}
-
-.Container-parmesao > aside {
-    width: 155px;
-    margin-top: 450px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.356);
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+td {
+    background-color: white;
+    padding: 3px 5px 4px ;
+    border: 1px solid rgb(192, 177, 177);
     text-align: center;
-
-    font-family: var(--fonth1); 
-    color: white;
 }
 
-/* ÁREA DE RODAPÉ*/
+/* ÁREA DO FOOTER */
+
 footer {
     background-color: rgba(0, 0, 0, 0.438);
     height: 20px;
