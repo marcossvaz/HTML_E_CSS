@@ -34,7 +34,7 @@
 
 /* ÁREA DO TOPO */
 header {
-    background: url(/MOD_03/exercicio/testes/paralax/imagens/rebecca-orlov-epic-playdate-rfI4MmZXZOk-unsplash.jpg);
+    background: url(/MOD_03/exercicio/testes/paralax/imagens/board_cheese.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
@@ -49,17 +49,16 @@ header.fundo {
 }
 header h1 {
     display: inline-block;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 10em;
     font-family: var(--font);
     padding: 20px 0px 20px 0px;
     font-variant: small-caps;
 }
 
-.fundo  img {
+.fundo  img {    /*Logo de Queijo*/
     width: 9%;
     margin-bottom: 5px;
-
 }
 
 
@@ -128,7 +127,7 @@ table {
     margin: auto;
 }
 th {
-    width: 150px;
+    width: 500px;
     font: 1.2em 'akrobat';
     background-color: var(--corfont2);
     padding: 3px 5px 4px ;
