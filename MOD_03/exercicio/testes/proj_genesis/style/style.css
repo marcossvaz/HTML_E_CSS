@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* ÁREA DE TOP */
+header {
+    height: 250px;
+    background-color: #212121;
+}
