@@ -3,9 +3,23 @@
 * {
     margin: 0px;
     padding: 0px;
+   
 }
 /* ÁREA DE TOP */
 header {
-    height: 250px;
-    background-color: #212121;
+    height: 210px;
+    background-image: linear-gradient(to left, #280F48, #200931);
+}
+
+nav {
+    height: 40px;
+    padding-top: 30px;
+    background-image: linear-gradient(to left, #280F48, #200931)
+}
+
+nav a {
+    font: ;
+    text-decoration: none;
+    margin: 10px;
+    padding: 50px 50px 10px;
 }
