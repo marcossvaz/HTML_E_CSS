@@ -40,3 +40,9 @@ nav a:hover {
 }
 
 /*ÁRE DO BODY*/
+
+main {
+    width:600px;
+    height: 800px;
+    margin: auto;
+}
