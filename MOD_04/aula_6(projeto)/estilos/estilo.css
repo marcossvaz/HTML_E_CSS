@@ -28,3 +28,12 @@ main {
     transform: translate(-50%, -50%);
 
 }
+
+#home {
+    position: relative;
+    left: 47px;
+    top: 79px;
+
+    width:268px;
+    height: 473px;
+}
