@@ -7,13 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="dados.php" method="get">
+    <form action="dados.php" method="post">
         <p>
-            NOME: <input type="text" name="usu" id="usu">
+            <label for="usu">NOME:</label>
+                <input type="text" name="usu" id="usu" placeholder="Coloque seu nome aqui" autocomplete="username" required size="20px">
         </p>
         <p>
-            SENHA: <input type="password" name="pass" id="pass">
+            <label for="">SENHA:</label>
+                <input type="password" name="pass" id="pass" placeholder="Sua senha aqui" autocomplete="current-password" required maxlength="8" size="10px">
         </p>
+        <input type="submit" value="enviar">
     </form>
 </body>
 </html>
