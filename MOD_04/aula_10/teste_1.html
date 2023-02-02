@@ -7,13 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <p>Nome:
-            
+    <form action="dados.php" method="post" autocomplete="on">
+        <p><label for="usu">Nome:</label>
+            <input name="usu" id="usu" placeholder="Seu nome" autocomplete="name" size="10" > 
         </p>
-        <p>idade:
-            
+        <p><label for="idade">idade:</label>
+            <input name="idade" id="idade" placeholder="Sua idade" autocomplete="current-password" maxlength="10px">
         </p>
+        <input type="submit" value="não clique...">
+
     </form>
 </body>
 </html>
