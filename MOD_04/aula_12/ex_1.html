@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        main {
+            margin: 100px auto;
+            width: 400px;
+            background-color: #9FC131;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        h3 {
+            font: 20px normal, sans-serif;
+            text-align: center;
+        }
+        p {
+            font-family: sans-serif;
+            margin-left: 10px;
+            margin: 10px;
+            padding: 1px;
+        }
+        p input {
+            margin-left: 20px;
+            padding: 3px;
+        }
+        .butt {
+            margin-left: 20px;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h3>Cadastro de dados:</h3>
+        <form>
+            <p><label for="inome">NOME:</label>
+                <input type="text" name="nome" id="inome" size="20.2" placeholder="Seu nome completo">
+            </p>
+            <p><label for="idadei">IDADE:</label>
+                <input type="number" name="idade" id="idadei" size="10" maxlength="10" placeholder="Sua idade">
+            </p>
+            <p><label for="itel">TEL:</label>
+                <input type="tel" name="tel" id="itel" placeholder="telefone">
+            </p>
+            <p><label for="">DATA:</label>
+                <input type="date" name="data" id="idata">
+            </p>
+            <input type="submit" value="cadastrar" class="butt">
+            <input type="reset" value="limpar informações" class="butt">
+        </form>
+    </main>
+
+</body>
+</html>
