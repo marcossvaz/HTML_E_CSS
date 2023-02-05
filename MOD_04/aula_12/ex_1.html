@@ -37,9 +37,9 @@
             margin-left: 20px;
             padding: 3px;
         }
-
+ 
         .butt {
-            margin-left: 80px;
+            margin-left: 20px;
             padding: 4px;
 
         }
@@ -56,13 +56,13 @@
                 <input type="number" name="idade" id="idadei" size="10" maxlength="10" placeholder="Sua idade" required>
             </p>
             <p><label for="itel">TEL:</label>
-                <input type="tel" name="tel" id="itel" placeholder="(00)0000-0000" required>
+                <input type="tel" name="tel" id="itel" placeholder="(00)0000-0000" required pattern="^[(][0-9]{2}[)][0-9]{4}[-][0-9]{4}$">
             </p>
             <p><label for="">DATA:</label>
                 <input type="date" name="data" id="idata" required>
             </p>
-            <input type="submit" value="cadastrar" class="butt">
-            <input type="reset" value="limpar informações" class="butt">
+            <input type="submit" value="Cadastrar" class="butt">
+            <input type="reset" value="Limpar informações" class="butt">
         </form>
     </main>
 
