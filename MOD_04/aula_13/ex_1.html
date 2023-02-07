@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        main {
+            width: 300px;
+            margin: auto;
+        }
+
+        .butao {
+            margin-top: 10px;
+            margin-left: 2px;
+        }
+       
+    </Style>
+</head>
+<body>
+    <main>
+        <h2>Cadastro de clientes</h2>
+        <form  action="php1.php" method="post">
+            <fieldset>
+                <fieldset>
+                    <legend>Dados pessoas</legend>
+                    <p>Nome:
+                        <input type="text" placeholder="Seu nome completo">
+                    </p>
+                    <p>Idade:
+                        <input type="number" placeholder="idade">
+                    </p>
+                    <p>Tel:
+                        <input type="tel" placeholder="(00)0000-0000">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferêcnias:</legend>
+                    <input type="checkbox" id="lfutb"><label for="lfutb">Futebol</label><br>
+                    <input type="checkbox" id="lfuts"><label for="lfuts">Futesal</label><br>
+                    <input type="checkbox" id="lnat"><label for="lnat">Natação</label><br>
+                    <input type="checkbox" id="lbox"><label for="lbox">Boxe</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Seu sexo</legend>
+                    <input type="radio" name="sexo" id="mas"><label for="mas" class="sexo">Masculino</label>
+                    <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>
+                </fieldset>
+                <input type="submit" value="enviar.." class="butao">
+            </fieldset>
+            
+        </form>
+    </main>
+</body>
+</html>
