@@ -7,14 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>satisfação</h1>
-    <p>
-        <label for="icolol">escolha uma cor:</label>
-        <input type="color" id="lcolol">
-    </p>
-
-    <p>Seu nível de safistação:<br>
-        <input type="range" min="1" max="10" value="5">
-    </p>
+    <form action="dados.php" method="post">
+        <h1>satisfação</h1>
+        <p>
+            <label for="icolol">escolha uma cor:</label>
+            <input type="color" id="lcolol">
+        </p>
+        <p>Seu nível de safistação:<br>
+            <input type="range" min="1" max="10" value="5">
+        </p>
+        <p>
+            enviar arquivo:
+            <input type="file" id="">
+        </p>
+        <input  type="submit" value="enviar arquivo">
+    </form>
 </body>
 </html>
