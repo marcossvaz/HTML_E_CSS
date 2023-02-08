@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Sobre países</legend>
+        <form action="dados.php">
+            <p><label for="listPais">Esolha os países:</label>
+                
+                <select id="listPais" name="paises">
+                    <option>--esolha aqui--</option>
+                    <optgroup label="Países da américa do sul">
+                        <option name="br">Brasil</option>
+                        <option name="Arg">Argentina</option>
+                        <option name="vez">Venezuela</option>
+                    </optgroup>
+
+                    <optgroup label="Países da Europa">
+                        <option name="ale">Alemanha</option>
+                        <option name="port">Portugal</option>
+                    </optgroup>             
+                </select>
+            </p>
+            <p> <label for="">Sua profissão</label>
+                <input type="tex" id="listprof" list="listProf" size="7">
+                <datalist id="listProf">
+                    <option>DEV</option>
+                    <option>Engenheiro</option>
+                </datalist>
+            </p>
+            <p><label for="areatexto">Sua mensagem:</label><br>
+            <textarea id="areatexto" name="areatexto" cols="20" rows="4">
+            </textarea>
+        </p>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
