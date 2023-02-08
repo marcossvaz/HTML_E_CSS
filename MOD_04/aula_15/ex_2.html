@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        h1 {
+            font: normal 1.7em  sans-serif;
+            text-align: center;
+            border-bottom: 1px solid;
+            margin-bottom: 20px;
+            
+        }
+        main {
+            width: 400px;
+            margin: auto;
+            border-radius: 5px;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        div {
+            padding: 6px;
+        }
+        input {
+            padding: 3px;
+        }
+        fieldset{
+            padding: 10px;
+        }
+        .fieldDentro{
+            width: 200px;
+            border-radius: 20px;
+        }
+
+        .sexo {
+            margin-left: 10px;
+        }
+
+        .botao {
+            margin-top: 9px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Cadatro de usuário</h1>
+            <div><label for="formNome">Seu Nome:</label>
+                <input name="formNome" id="formNome" placeholder="Seu nome completo">
+            </div>
+            <div><label for="formId">ID:</label>
+                <input name="formId" id="formId" placeholder="Sua identidade" required>
+            </div>
+            <div><label for="formTel">TEL:</label>
+                <input name="formTel" id="formTel" placeholder="(00)0000-0000" pattern="^[(][0-9]{2}[)][0-9]{4}[-][0-9]{4}$" required>
+            </div>
+            <fieldset class="fieldDentro">
+                <legend>Seu sexo</legend>
+                <label for="ifem">feminino</label> 
+                    <input type="radio" name="sexo" id="ifem">
+                <label for="imas" class="sexo">masculino</label> 
+                    <input type="radio" name="sexo" id="imas">
+            </fieldset>
+            <input type="submit" value="cadastrar" class="botao"> 
+        </form>
+    </main>
+</body>
+</html>
