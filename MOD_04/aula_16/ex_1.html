@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Formulário:</h3>
+    <form action="dados.php" method="post">
+        <p>
+            <label for="soma1">número a somar :</label>
+            <input  type="number" name="caixa1" id="soma1" oninput="result.innerHTML = Number(soma1.value) + Number(soma2.value)">
+        </p>
+        <p>
+            <label for="soma2">número a somar :</label>
+            <input type="number" name="caixa2" id="soma2" oninput="result.innerHTML = Number(soma1.value) + Number(soma2.value)">
+        </p>
+        <output id="result" name="result">0</output>
+    </form>
+</body>
+</html>
