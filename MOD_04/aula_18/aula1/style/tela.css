@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* ESTILO PARA TELAS*/
+main {
+  width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+p {
+  font: 1.3em normal sans-serif;
+  text-indent:10px;
+}

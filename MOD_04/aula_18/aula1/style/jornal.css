@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*ESTILO PARA IMPRESSORAS*/
+html {
+  margin: 10px 10px;
+}
+
+p {
+  font: 1.6em normal helvetica;
+}
+
+main::after{
+  content: 'Esse jornal foi formatado por Marcos';
+}
